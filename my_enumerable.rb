@@ -1,6 +1,4 @@
-# frozen_string_literal: true
-
-# MyEnumerable module implementing metjods all, any and filter
+# MyEnumerable module implementing methods all, any and filter
 module MyEnumerable
   def any?
     each { |item| return true if yield item }
