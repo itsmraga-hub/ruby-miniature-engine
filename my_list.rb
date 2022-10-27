@@ -1,4 +1,4 @@
-require './my_enumerable'
+require_relative './my_enumerable'
 
 # Mylist Class
 class MyList
